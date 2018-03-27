@@ -1,0 +1,19 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard1.0</TargetFramework>
+    <AssemblyName>Stannieman.DI</AssemblyName>
+    <RootNamespace>Stannieman.DI</RootNamespace>
+    <Authors>Stan Wijckmans</Authors>
+    <Company>Stan Wijckmans</Company>
+    <Product>Stannieman DI</Product>
+    <Description>A basic and very light weight DI container</Description>
+    <Copyright>Copyright © 2018 Stan Wijckmans</Copyright>
+    <SignAssembly>true</SignAssembly>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|AnyCPU'">
+    <DefineConstants>RELEASE;NETSTANDARD1_0</DefineConstants>
+  </PropertyGroup>
+
+</Project>
